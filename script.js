@@ -20,16 +20,13 @@ const winner = (num1, num2) => {
     if (num1 > num2) {
         //Player-1 Winner
         txtResult.textContent = "Player-1 🎉";
-        txtResult.style.fontSize = '5rem';
 
     } else if (num2 > num1) {
         //Player-2 Winner
         txtResult.textContent = "Player-2 🎉";
-        txtResult.style.fontSize = '5rem';
 
     } else {
         //Draw
         txtResult.textContent = "Draw 🤝";
-        txtResult.style.fontSize = '5rem';
     }
 }
