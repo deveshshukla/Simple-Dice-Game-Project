@@ -68,3 +68,21 @@ main {
     transform: translateY(5px);
     transition: all 0.2s;
 }
+
+/* media-query */
+
+@media only screen and (max-width: 550px) {
+    .txtResultHeding {
+        font-size: 4rem;
+        margin: 1rem 0 5rem 0;
+    }
+
+    .txtPlayer {
+        font-size: 1rem;
+    }
+
+    .dice {
+        width: 5rem;
+        margin: 1rem 2rem 10rem;
+    }
+}
